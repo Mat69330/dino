@@ -1,0 +1,78 @@
+#cv{
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  height: 300px;
+  border: 1px solid black;
+}
+
+#ps{
+  width: 20px;
+  height: 50px;
+  position: absolute;
+  top: 250px;
+  left: 40px;
+  background-color: red;
+  
+}
+
+.anim{
+  animation: hg 700ms infinite linear;
+}
+
+#block{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 278px;
+  left: 90%;
+  border: 1px solid black;
+  
+}
+
+.blb{
+  animation: block 1s infinite linear;
+}
+
+@keyframes block{
+  from{
+    left: 90%;
+  }
+  to{
+    left: 1%;
+  }
+}
+
+@keyframes hg{
+  0%{
+    top: 250px;
+  }
+  30%{
+    top: 200px;
+  }
+  50%{
+    top: 200px;
+  }
+  70%{
+    top: 200px;
+  }
+  100%{
+    top: 250px;
+  }
+}
+
+#sautbtn{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 400px;
+}
+
+#startbtn{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+}
